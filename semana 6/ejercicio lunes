@@ -1,0 +1,28 @@
+
+
+#edad = 18
+
+#if edad >= 18:
+    #print ('who tf is u aghjadhgljdahg')
+
+#else:
+    #print ("waja no es mayor de edad, pick up the pen kid go back 2 school")
+
+#---------------------------------------------------------------------------------
+
+# ingresa dos números
+# compara y dime cual es el mayor
+# a > b
+
+numero1 = int(input("ingresa el numero 1 plox: "))
+numero2 = float(input("ingresa el numero 2 yapo oe: "))
+
+if numero1 > numero2:
+    print("el numero 1 es mayor ahjlghgjlshgjlfshgfsljg " + str(numero1))
+    print(f"el número 1 es mayor: {numero1}")
+elif numero1 == numero2:
+    print ("son iguales los números, idk twin")
+else:
+    print("el numero 2 es mayor ahgjldshgjlsfghf")
+
+print("alr my job is done cya twin")

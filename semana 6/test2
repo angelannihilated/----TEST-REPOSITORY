@@ -1,0 +1,33 @@
+
+
+print("***CALCULADORA***")
+print("[1] Suma")
+print("[2] Resta")
+print("[3] Multiplicación")
+print("[4] División")
+opc = int(input("Seleccione una opción: "))
+
+if opc == 1:
+    num1 = int (input("cuál es el primer número?: "))
+    num2 = float (input("cuál es el segundo número?: "))
+    resultado = num1 + num2
+    print("el resultado es: ", resultado)
+    
+elif opc == 2:
+    num1 = int (input("cuál es el primer número?: "))
+    num2 = float (input("cuál es el segundo número?: "))
+    resultado = num1 - num2
+    print("el resultado es: ", resultado)
+
+elif opc == 3:
+    num1 = int (input("cuál es el primer número?: "))
+    num2 = float (input("cuál es el segundo número?: "))
+    resultado = num1 * num2
+    print("el resultado es: ", resultado)
+
+else:
+    opc == 4
+    num1 = int (input("cuál es el primer número?: "))
+    num2 = float (input("cuál es el segundo número?: "))
+    resultado = num1 / num2
+    print("el resultado es: ", resultado)
