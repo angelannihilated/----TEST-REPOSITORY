@@ -22,7 +22,16 @@
 
 # ===============================================
 
-for cantidad in range (4):
-    print("veces " + str(cantidad))
-    nombre = input("ingresa tu nombre: ")
+#for cantidad in range (4):
+    #print("veces " + str(cantidad))
+    #nombre = input("ingresa tu nombre: ")
     # loop 3 veces ahljgdahjlgdshgljsdhgljfshg
+
+# ===============================================
+
+nombre = "murcielaaaaaAAaaAgo"
+for letra in nombre: # [m, u, r....]
+    print(letra)
+
+# cuántas letras a existen?
+
