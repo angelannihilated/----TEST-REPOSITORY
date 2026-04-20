@@ -30,8 +30,10 @@
 # ===============================================
 
 nombre = "murcielaaaaaAAaaAgo"
+cont = 0
 for letra in nombre: # [m, u, r....]
-    print(letra)
+    if letra == "a":
+        print(letra)
+        cont = cont + 1
 
-# cuántas letras a existen?
-
+    print ("la cantidad de letras de la A son: " + str(cont))
