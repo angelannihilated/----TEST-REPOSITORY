@@ -11,3 +11,4 @@ for n in range(1, total + 1):
     # como sumo cada n?
 
 print ("el contador es :", contador)
+print("el acumulador es ", acumulador)
