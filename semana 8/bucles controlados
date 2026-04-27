@@ -25,3 +25,9 @@ while True:
 
     if contador == 10:
         break
+
+# condicion de cabeza
+contador = 0
+while contador <= 10:
+    print("el contador es: ", contador)
+    contador = contador + 1
