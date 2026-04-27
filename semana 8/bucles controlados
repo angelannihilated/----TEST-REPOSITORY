@@ -1,0 +1,13 @@
+
+# bucles controlados
+# cuantas veces se va a realizar ese codigo
+# range (numero_iniciar, largo - 1)
+
+for x in range(1, 11): #1,..........,10
+    print("numero", x)
+
+# foreach
+for nombre in ["daniel", "orellana"]:
+    print(nombre)
+    for letra in nombre:
+        print(letra)
