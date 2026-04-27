@@ -3,11 +3,22 @@
 # cuantas veces se va a realizar ese codigo
 # range (numero_iniciar, largo - 1)
 
-for x in range(1, 11): #1,..........,10
-    print("numero", x)
+#for x in range(1, 11): #1,..........,10
+    #print("numero", x)
+
+    #while True:
+        #print("me pican los cocos gdjklgadhg")
+
+    #while false:
+        #print("cagó no ma compañero")
 
 # foreach
-for nombre in ["daniel", "orellana"]:
-    print(nombre)
-    for letra in nombre:
-        print(letra)
+#for nombre in ["daniel", "orellana"]:
+    #print(nombre)
+    #for letra in nombre:
+        #print(letra)
+
+contador = 1
+while True:
+    print("el número es: ", contador)
+    contador = contador + 1
