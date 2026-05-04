@@ -45,6 +45,7 @@ suma(1,2)
 suma(4,2)
 suma(8,2)
 
+suma(b=100, a=239)
 
 # funciones con retornos, entregan un valor al llamarlos
 # f(x) = x**2 + 2*x + 2
