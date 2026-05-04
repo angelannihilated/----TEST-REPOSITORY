@@ -37,6 +37,13 @@ resta()
 resta()
 resta()
 
+# parametros
+def suma(a,b):
+    print(str(a+b))
+
+suma(1,2)
+suma(4,2)
+suma(8,2)
 
 
 # funciones con retornos, entregan un valor al llamarlos
