@@ -5,12 +5,24 @@
 # [2] it shows you a list of things you can afford
 # [3] you choose the product and u have it lol nothing too crazy ...i hope.
 
-print("*** ingrese la cantidad de dinero que desea utilizar ***")
-dinero = int(input("_ingrese dinero: "))
-print("usted ha ingresado $", dinero)
+def solicitar_dinero():
+    return float(input("ingrese efectivo: "))
 
-if dinero >= 1000:
-    print("[1] croissant nutella - $600")
-    print("[2] snickers - $900")
-    print("[3] coca cola 250ml - $990")
-    opc = input("ingrese su opcion: ")
+def menu():
+    dinero = 0
+    while True:
+        print("\n ***MAQUINA EXPENDEDORA***")
+        print("[1] ingresar efectivo")
+        print("[2] elegir producto")
+        print("[3] salir")
+        opcion = input("seleccione una opcion: ")
+
+        if opcion == 1:
+            try:
+                dinero = solicitar_dinero()
+                print(f"dinero ingresado: {dinero}")
+            except ValueError:
+                print("Error, ingrese una cantidad válida en números")
+
+menu()
+                
