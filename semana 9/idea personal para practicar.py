@@ -12,3 +12,5 @@ print("usted ha ingresado $", dinero)
 if dinero >= 1000:
     print("[1] croissant nutella - $600")
     print("[2] snickers - $900")
+    print("[3] coca cola 250ml - $990")
+    opc = input("ingrese su opcion: ")
