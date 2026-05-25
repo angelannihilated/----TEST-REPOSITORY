@@ -1,0 +1,21 @@
+nombre = "tu mamita"
+
+# arreglo, lista, list
+
+# [] corchetes
+# () paréntesis
+# {} llaves
+
+#nombre = [] # mutables [] vacío
+nombre = ["tu mamita", "borish", "pelao shuster"]
+
+# matrices
+# datos = [1, 2, 3, 4, "lamo bamo", True, [1,2,3,4], [2, [2]]]
+
+nombre = "tu mamita"
+for letra in nombre:
+    print(letra)
+
+nombre = ["tu mamita", "borish", "pelao shuster"]
+for nombres in nombre:
+    print(nombres)
