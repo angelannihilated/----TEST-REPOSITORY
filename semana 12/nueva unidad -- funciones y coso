@@ -29,3 +29,16 @@ print(nombre[0])
 print(nombre[-1])
 print(nombre [0][-1])
 print(nombre [-1][-1]) # ultimo nombres, y última letra
+
+# reglas de negocio
+alumno = ["benja", 5, True]
+alumno2 = ["elias", 3, False]
+
+#? variable
+alumnos = ["benja", "elias", "maria"]
+notas = [5, 2, 6.7]
+# alumnos [0] + notas[0]
+# 3
+
+curso = [["benja", 5], ["elias", 2], ["maria", 6.7]]
+# curso[0][1] + curso[0][1]
